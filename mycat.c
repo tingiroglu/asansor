@@ -7,7 +7,7 @@
 #define BUFFSIZE 8192
 
 int main (int argc, char **argv){
-	int n ;
+	
 	char buff[BUFFSIZE];
 
 	while((n = read(STDIN_FILENO, buff, BUFFSIZE)) > 0){
